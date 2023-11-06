@@ -1,0 +1,12 @@
+{
+  "name": "@tty-pt/ndw",
+  "version": "0.0.1",
+  "description": "Workspace for neverdark",
+  "scripts": {
+    "build-libs": "pnpm --filter '@tty-pt/*' build",
+    "test": "pnpm -r test"
+  },
+  "keywords": [],
+  "author": "Paulo Quirino <quirinpa@gmail.com>",
+  "license": "BSD-2"
+}

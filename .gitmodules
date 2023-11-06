@@ -1,0 +1,15 @@
+[submodule "libs/styles"]
+	path = libs/styles
+	url = git@github.com:tty-pt/styles.git
+[submodule "libs/scripts"]
+	path = libs/scripts
+	url = git@github.com:tty-pt/scripts.git
+[submodule "libs/nd"]
+	path = nd
+	url = git@github.com:tty-pt/neverdark.git
+[submodule "libs/sub"]
+	path = libs/sub
+	url = git@github.com:tty-pt/sub.git
+[submodule "ndc"]
+	path = ndc
+	url = git@github.com:tty-pt/ndc.git
