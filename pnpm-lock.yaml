@@ -232,7 +232,7 @@ importers:
     devDependencies:
       '@tty-pt/scripts':
         specifier: ^0.6.0-35
-        version: 0.6.0-35(@jest/globals@29.7.0)(@types/babel__core@7.20.3)(@types/jest@29.5.7)(@types/node@20.11.30)(@types/react-dom@18.2.18)(@types/react@18.2.48)(@types/testing-library__jest-dom@5.14.5)(type-fest@2.19.0)
+        version: 0.6.0-35(@jest/globals@29.7.0)(@types/jest@29.5.7)(@types/node@20.11.30)(@types/react-dom@18.2.18)(@types/react@18.2.48)(@types/testing-library__jest-dom@5.14.5)(type-fest@2.19.0)
       '@tty-pt/sub':
         specifier: ^2.2.31
         version: 2.2.31(lodash@4.17.21)
@@ -263,7 +263,7 @@ importers:
     devDependencies:
       '@tty-pt/scripts':
         specifier: ^0.6.0-35
-        version: 0.6.0-35(@jest/globals@29.7.0)(@types/babel__core@7.20.3)(@types/jest@29.5.7)(@types/node@20.11.7)(@types/react-dom@18.2.18)(@types/react@18.2.48)(@types/testing-library__jest-dom@5.14.5)(type-fest@2.19.0)
+        version: 0.6.0-35(@jest/globals@29.7.0)(@types/jest@29.5.7)(@types/node@20.11.7)(@types/react-dom@18.2.18)(@types/react@18.2.48)(@types/testing-library__jest-dom@5.14.5)(type-fest@2.19.0)
       '@types/lodash':
         specifier: ^4.14.200
         version: 4.14.200
@@ -286,8 +286,8 @@ importers:
         specifier: ^2.11.8
         version: 2.11.8
       '@tty-pt/ndc':
-        specifier: ^0.1.18
-        version: 0.1.18(xterm-addon-fit@0.8.0(xterm@5.3.0))(xterm-addon-web-links@0.9.0(xterm@5.3.0))(xterm@5.3.0)
+        specifier: ^0.2.0
+        version: 0.2.0(xterm-addon-fit@0.8.0(xterm@5.3.0))(xterm-addon-web-links@0.9.0(xterm@5.3.0))(xterm@5.3.0)
       '@tty-pt/sub':
         specifier: ^2.2.31
         version: 2.2.31(lodash@4.17.21)
@@ -309,10 +309,10 @@ importers:
     devDependencies:
       '@tty-pt/scripts':
         specifier: ^0.6.0-35
-        version: 0.6.0-35(@jest/globals@29.7.0)(@types/babel__core@7.20.3)(@types/jest@29.5.7)(@types/node@20.11.30)(@types/react-dom@18.2.18)(@types/react@18.2.48)(@types/testing-library__jest-dom@5.14.5)(type-fest@2.19.0)
+        version: 0.6.0-35(@jest/globals@29.7.0)(@types/jest@29.5.7)(@types/node@20.11.30)(@types/react-dom@18.2.18)(@types/react@18.2.48)(@types/testing-library__jest-dom@5.14.5)(type-fest@2.19.0)
       webpack:
         specifier: ^5.89.0
-        version: 5.89.0(webpack-cli@5.0.2)
+        version: 5.89.0
 
   ndc:
     dependencies:
@@ -328,7 +328,7 @@ importers:
     devDependencies:
       '@tty-pt/scripts':
         specifier: ^0.6.0-35
-        version: 0.6.0-35(@jest/globals@29.7.0)(@types/babel__core@7.20.3)(@types/jest@29.5.7)(@types/node@20.11.30)(@types/react-dom@18.2.18)(@types/react@18.2.48)(@types/testing-library__jest-dom@5.14.5)(type-fest@2.19.0)
+        version: 0.6.0-35(@jest/globals@29.7.0)(@types/jest@29.5.7)(@types/node@20.11.30)(@types/react-dom@18.2.18)(@types/react@18.2.48)(@types/testing-library__jest-dom@5.14.5)(type-fest@2.19.0)
 
 packages:
 
@@ -1846,8 +1846,8 @@ packages:
     resolution: {integrity: sha512-L7z9BgrNEcYyUYtF+HaEfiS5ebkh9jXqbszz7pC0hRBPaatV0XjSD3+eHrpqFemQfgwiFF0QPIarnIihIDn7OA==}
     engines: {node: '>=10.13.0'}
 
-  '@tty-pt/ndc@0.1.18':
-    resolution: {integrity: sha512-yJxrE73D6M7e0oHPTIWh2yuKvaUtjW4x0VAQ+oVaLFvdi9JjS/dZbPv4l3hkLREGnN+hyXiCNHN9qVYpovn4Eg==}
+  '@tty-pt/ndc@0.2.0':
+    resolution: {integrity: sha512-sss1Kekan2Pu1TtpS+c0GICuBMbvxfSZ9msdCqAm5j9qxGU7Qt+QpDfw01MoOjjMLPvYec/g1K1to5fyhUqaVA==}
     hasBin: true
     peerDependencies:
       xterm: ^5.1.0
@@ -8364,13 +8364,13 @@ snapshots:
 
   '@trysound/sax@0.2.0': {}
 
-  '@tty-pt/ndc@0.1.18(xterm-addon-fit@0.8.0(xterm@5.3.0))(xterm-addon-web-links@0.9.0(xterm@5.3.0))(xterm@5.3.0)':
+  '@tty-pt/ndc@0.2.0(xterm-addon-fit@0.8.0(xterm@5.3.0))(xterm-addon-web-links@0.9.0(xterm@5.3.0))(xterm@5.3.0)':
     dependencies:
       xterm: 5.3.0
       xterm-addon-fit: 0.8.0(xterm@5.3.0)
       xterm-addon-web-links: 0.9.0(xterm@5.3.0)
 
-  '@tty-pt/scripts@0.6.0-35(@jest/globals@29.7.0)(@types/babel__core@7.20.3)(@types/jest@29.5.7)(@types/node@20.11.30)(@types/react-dom@18.2.18)(@types/react@18.2.48)(@types/testing-library__jest-dom@5.14.5)(type-fest@2.19.0)':
+  '@tty-pt/scripts@0.6.0-35(@jest/globals@29.7.0)(@types/jest@29.5.7)(@types/node@20.11.30)(@types/react-dom@18.2.18)(@types/react@18.2.48)(@types/testing-library__jest-dom@5.14.5)(type-fest@2.19.0)':
     dependencies:
       '@babel/core': 7.24.3
       '@babel/plugin-proposal-class-properties': 7.18.6(@babel/core@7.24.3)
@@ -8470,7 +8470,7 @@ snapshots:
       - webpack-dev-server
       - webpack-plugin-serve
 
-  '@tty-pt/scripts@0.6.0-35(@jest/globals@29.7.0)(@types/babel__core@7.20.3)(@types/jest@29.5.7)(@types/node@20.11.7)(@types/react-dom@18.2.18)(@types/react@18.2.48)(@types/testing-library__jest-dom@5.14.5)(type-fest@2.19.0)':
+  '@tty-pt/scripts@0.6.0-35(@jest/globals@29.7.0)(@types/jest@29.5.7)(@types/node@20.11.7)(@types/react-dom@18.2.18)(@types/react@18.2.48)(@types/testing-library__jest-dom@5.14.5)(type-fest@2.19.0)':
     dependencies:
       '@babel/core': 7.24.3
       '@babel/plugin-proposal-class-properties': 7.18.6(@babel/core@7.24.3)
@@ -8950,33 +8950,15 @@ snapshots:
       '@webassemblyjs/ast': 1.12.1
       '@xtuc/long': 4.2.2
 
-  '@webpack-cli/configtest@2.1.1(webpack-cli@5.0.2(webpack@5.89.0))(webpack@5.89.0(webpack-cli@5.0.2))':
-    dependencies:
-      webpack: 5.89.0(webpack-cli@5.0.2)
-      webpack-cli: 5.0.2(webpack@5.89.0)
-    optional: true
-
   '@webpack-cli/configtest@2.1.1(webpack-cli@5.0.2(webpack@5.91.0))(webpack@5.91.0(@swc/core@1.4.13)(esbuild@0.20.2)(webpack-cli@5.0.2))':
     dependencies:
       webpack: 5.91.0(@swc/core@1.4.13)(esbuild@0.20.2)(webpack-cli@5.0.2)
       webpack-cli: 5.0.2(webpack@5.91.0)
 
-  '@webpack-cli/info@2.0.2(webpack-cli@5.0.2(webpack@5.89.0))(webpack@5.89.0(webpack-cli@5.0.2))':
-    dependencies:
-      webpack: 5.89.0(webpack-cli@5.0.2)
-      webpack-cli: 5.0.2(webpack@5.89.0)
-    optional: true
-
   '@webpack-cli/info@2.0.2(webpack-cli@5.0.2(webpack@5.91.0))(webpack@5.91.0(@swc/core@1.4.13)(esbuild@0.20.2)(webpack-cli@5.0.2))':
     dependencies:
       webpack: 5.91.0(@swc/core@1.4.13)(esbuild@0.20.2)(webpack-cli@5.0.2)
       webpack-cli: 5.0.2(webpack@5.91.0)
-
-  '@webpack-cli/serve@2.0.5(webpack-cli@5.0.2(webpack@5.89.0))(webpack@5.89.0(webpack-cli@5.0.2))':
-    dependencies:
-      webpack: 5.89.0(webpack-cli@5.0.2)
-      webpack-cli: 5.0.2(webpack@5.89.0)
-    optional: true
 
   '@webpack-cli/serve@2.0.5(webpack-cli@5.0.2(webpack@5.91.0))(webpack@5.91.0(@swc/core@1.4.13)(esbuild@0.20.2)(webpack-cli@5.0.2))':
     dependencies:
@@ -13400,14 +13382,14 @@ snapshots:
       '@swc/core': 1.4.13
       esbuild: 0.20.2
 
-  terser-webpack-plugin@5.3.9(webpack@5.89.0(webpack-cli@5.0.2)):
+  terser-webpack-plugin@5.3.9(webpack@5.89.0):
     dependencies:
       '@jridgewell/trace-mapping': 0.3.20
       jest-worker: 27.5.1
       schema-utils: 3.3.0
       serialize-javascript: 6.0.1
       terser: 5.24.0
-      webpack: 5.89.0(webpack-cli@5.0.2)
+      webpack: 5.89.0
 
   terser@5.24.0:
     dependencies:
@@ -13752,24 +13734,6 @@ snapshots:
 
   webidl-conversions@7.0.0: {}
 
-  webpack-cli@5.0.2(webpack@5.89.0):
-    dependencies:
-      '@discoveryjs/json-ext': 0.5.7
-      '@webpack-cli/configtest': 2.1.1(webpack-cli@5.0.2(webpack@5.89.0))(webpack@5.89.0(webpack-cli@5.0.2))
-      '@webpack-cli/info': 2.0.2(webpack-cli@5.0.2(webpack@5.89.0))(webpack@5.89.0(webpack-cli@5.0.2))
-      '@webpack-cli/serve': 2.0.5(webpack-cli@5.0.2(webpack@5.89.0))(webpack@5.89.0(webpack-cli@5.0.2))
-      colorette: 2.0.20
-      commander: 10.0.1
-      cross-spawn: 7.0.3
-      envinfo: 7.11.0
-      fastest-levenshtein: 1.0.16
-      import-local: 3.1.0
-      interpret: 3.1.1
-      rechoir: 0.8.0
-      webpack: 5.89.0(webpack-cli@5.0.2)
-      webpack-merge: 5.10.0
-    optional: true
-
   webpack-cli@5.0.2(webpack@5.91.0):
     dependencies:
       '@discoveryjs/json-ext': 0.5.7
@@ -13828,7 +13792,7 @@ snapshots:
 
   webpack-sources@3.2.3: {}
 
-  webpack@5.89.0(webpack-cli@5.0.2):
+  webpack@5.89.0:
     dependencies:
       '@types/eslint-scope': 3.7.6
       '@types/estree': 1.0.4
@@ -13851,11 +13815,9 @@ snapshots:
       neo-async: 2.6.2
       schema-utils: 3.3.0
       tapable: 2.2.1
-      terser-webpack-plugin: 5.3.9(webpack@5.89.0(webpack-cli@5.0.2))
+      terser-webpack-plugin: 5.3.9(webpack@5.89.0)
       watchpack: 2.4.0
       webpack-sources: 3.2.3
-    optionalDependencies:
-      webpack-cli: 5.0.2(webpack@5.89.0)
     transitivePeerDependencies:
       - '@swc/core'
       - esbuild
